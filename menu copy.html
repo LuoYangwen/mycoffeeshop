@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>One Page Wonder - Start Bootstrap Template</title>
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />
+    <style>
+        body {
+            padding-bottom: 4em;
+        }
+        
+        .filter-list {
+            text-align: center;
+            padding: 5rem 0;
+            text-transform: uppercase;
+            width: 100%;
+        }
+        
+        .filter-list h3 {
+            display: block;
+        }
+        
+        .filter-list .btn {
+            cursor: pointer;
+            text-transform: uppercase;
+            padding: 0.5rem 1.5rem;
+            border-radius: 0;
+        }
+        
+        .filter-list .btn.active {
+            background: #2e7ab5;
+            color: #fff;
+        }
+        
+        .product {
+            transition: 0.5s;
+            margin-bottom: 2em;
+        }
+        
+        .product:hover {
+            -ms-transform: scale(1.25, 1.25);
+            -webkit-transform: scale(1.25, 1.25);
+            transform: scale(1.25, 1.25);
+            z-index: 9;
+        }
+        
+        .product img {
+            width: 100%;
+            height: 400px;
+        }
+        
+        .product .info {
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            padding: 0.5em 1em;
+            margin: 0 0 0.5em 0;
+            border-bottom: 2px solid #2d7bb5;
+            background-color: #fff;
+        }
+        
+        .product .info .name {
+            flex: 2 0 0;
+            font-size: 1.3em;
+            font-weight: 400;
+            line-height: 1.4em;
+            color: #2d7bb5;
+        }
+        
+        .product .info .price {
+            font-size: 1.5em;
+            font-weight: 600;
+            color: #75b546;
+        }
+        
+        .product .info .price .original-price {
+            color: #f54336;
+            text-decoration: line-through;
+            font-size: 0.7em;
+        }
+        
+        .product .links {
+            display: flex;
+            flex-direction: row;
+            padding: 0.5em 1em;
+            background-color: #fff;
+        }
+        
+        .product .links .more {
+            width: 150px;
+            padding: 0.5em;
+            text-transform: uppercase;
+            text-align: center;
+            color: #fff;
+            background-color: #2e7ab5;
+        }
+        
+        .product .links .more:hover {
+            text-decoration: none;
+            opacity: .9;
+        }
+        
+        .product .links .add-to {
+            margin-left: auto;
+            padding: 0.5em;
+            color: #fff;
+            font-weight: 600;
+            background-color: #75b545;
+            text-transform: uppercase;
+        }
+        
+        .product .links .add-to:hover {
+            text-decoration: none;
+            opacity: .9;
+        }
+    </style>
+</head>
+
+<body id="page-top">
+    <!-- Navigation-->
+    <nav class="navbar navbar-expand-lg navbar-dark navbar-custom bg-black">
+        <div class="container px-5">
+            <a class="navbar-brand" href="index.html"><img src="img/logo.webp" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
+                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span
+                    class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ms-auto">
+    
+                    <li class="nav-item"><a class="nav-link" href="about.html">about</a></li>
+                    <li class="nav-item"><a class="nav-link" href="menu.html">menu</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">connection</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Header-->
+    <header class="masthead text-center text-white">
+        <div class="masthead-content">
+            <div class="container px-5">
+                <h1 class="masthead-heading mb-0">It's good drink</h1>
+                <h3 class="masthead-subheading mb-0">Coffee is the best medicine.</h3>
+
+            </div>
+        </div>
+        <div class="bg-circle-1 bg-circle"></div>
+        <div class="bg-circle-2 bg-circle"></div>
+        <div class="bg-circle-3 bg-circle"></div>
+        <div class="bg-circle-4 bg-circle"></div>
+    </header>
+    <!-- Content section 1-->
+    <div class="container">
+        <div class="row">
+            <div class="filter-list">
+                <h3>Filter</h3>
+                <button class="btn btn-default filter-button active" data-filter="all">All</button>
+                <button class="btn btn-default filter-button" data-filter="news">News</button>
+                <button class="btn btn-default filter-button" data-filter="sale">Sale</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 product filter">
+                <a href="/design/32">
+                    <img src="https://dummyimage.com/438x500/b027b0/fff.jpg" title="Product name" alt="Product name">
+                </a>
+                <div class="info">
+                    <div class="name">
+                       Coffee1
+                    </div>
+                    <div class="price">
+                        $ 50
+                    </div>
+                </div>
+                <div class="links">
+                    <a href="#" class="more">See details</a>
+                   
+                </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 product filter">
+                <a href="/design/32">
+                    <img src="https://dummyimage.com/438x500/b027b0/fff.jpg" title="Product name" alt="Product name">
+                </a>
+                <div class="info">
+                    <div class="name">
+                        Coffee2
+                    </div>
+                    <div class="price">
+                        $39
+                    </div>
+                </div>
+                <div class="links">
+                    <a href="#" class="more">See details</a>
+                    
+                </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 product filter sale">
+                <a href="/design/32">
+                    <img src="https://dummyimage.com/438x500/b027b0/fff.jpg" title="Product name" alt="Product name">
+                </a>
+                <div class="info">
+                    <div class="name">
+                        Product name
+                    </div>
+                    <div class="price">
+                        <span class="original-price">$1,500</span> $1,351
+                    </div>
+                </div>
+                <div class="links">
+                    <a href="#" class="more">See details</a>
+                    <a href="#" class="add-to">
+                        <i class="fa fa-shopping-cart" aria-hidden="true"></i> Add to cart
+                    </a>
+                </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 product filter sale">
+                <a href="/design/32">
+                    <img src="https://dummyimage.com/438x500/b027b0/fff.jpg" title="Product name" alt="Product name">
+                </a>
+                <div class="info">
+                    <div class="name">
+                        Product name
+                    </div>
+                    <div class="price">
+                        <span class="original-price">$1,500</span> $1,351
+                    </div>
+                </div>
+                <div class="links">
+                    <a href="#" class="more">See details</a>
+                    <a href="#" class="add-to">
+                        <i class="fa fa-shopping-cart" aria-hidden="true"></i> Add to cart
+                    </a>
+                </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 product filter news">
+                <a href="/design/32">
+                    <img src="https://dummyimage.com/438x500/b027b0/fff.jpg" title="Product name" alt="Product name">
+                </a>
+                <div class="info">
+                    <div class="name">
+                        Product name
+                    </div>
+                    <div class="price">
+                        $1,351
+                    </div>
+                </div>
+                <div class="links">
+                    <a href="#" class="more">See details</a>
+                    <a href="#" class="add-to">
+                        <i class="fa fa-shopping-cart" aria-hidden="true"></i> Add to cart
+                    </a>
+                </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 product filter news">
+                <a href="/design/32">
+                    <img src="https://dummyimage.com/438x500/b027b0/fff.jpg" title="Product name" alt="Product name">
+                </a>
+                <div class="info">
+                    <div class="name">
+                        Product name
+                    </div>
+                    <div class="price">
+                        $1,351
+                    </div>
+                </div>
+                <div class="links">
+                    <a href="#" class="more">See details</a>
+                    <a href="#" class="add-to">
+                        <i class="fa fa-shopping-cart" aria-hidden="true"></i> Add to cart
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer-->
+    <footer class="py-5 bg-black">
+        <div class="container px-5">
+            <p class="m-0 text-center text-white small">Copyright &copy; Your Website 2022</p>
+        </div>
+    </footer>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+</body>
+<script>
+    $(document).ready(function() {
+
+        $(".filter-button").click(function() {
+            var value = $(this).attr('data-filter');
+
+            if (value == "all") {
+
+                $('.filter').show('1000');
+            } else {
+
+                $(".filter").not('.' + value).hide('3000');
+                $('.filter').filter('.' + value).show('3000');
+
+            }
+
+
+            if ($(".filter-button").removeClass("active")) {
+                $(this).removeClass("active");
+            }
+            $(this).addClass("active");
+
+        });
+
+    });
+</script>
+
+</html>
